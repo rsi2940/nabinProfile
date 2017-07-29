@@ -95,14 +95,18 @@ header .profile-image:hover {
   color: yellow;
 }
 /*added by rishi*/
-.projects {
-  margin: 10px 30px;
+.projects-div ul {
+  margin: auto;
+  padding: 0;
+}
+.projects-div {
+  margin: auto;
   width: 100%;
   background: #eee;
 }
 .projects li {
   display: inline-table;
-  padding: 20px;
+  padding: 5px;
 }
 
 .card {
@@ -194,8 +198,13 @@ a.social:hover {
     justify-content: space-around;
     margin: 0 auto;
   }
+  .projects li {
+    display: inline-table;
+    padding: 5px;
+  }
 
-  header {
+  header,
+  .project-page {
     min-height: 470px;
   }
 
